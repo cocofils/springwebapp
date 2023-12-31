@@ -71,6 +71,24 @@
 		</dependency>
 
 	</dependencies>
+
+		<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Cocofils Releases Nexus Repository</name>
+	      <url>http://3.145.61.62:8081/repository/release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Cocofils Snapshot Nexus Repository </name>
+	      <url>http://3.145.61.62:8081/repository/snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+
+
+	
 	
 	<build>
 		<plugins>
